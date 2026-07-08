@@ -6,6 +6,13 @@
 .heading1:hover{
   transform: scale(1.1);
   box-shadow: 0px 0px 100px white;
+  color: white;
+  background-color: black;
+  cursor: default;
+}
+.image:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 100px white;
   color: blue;
   background-color: wheat;
 }
@@ -33,3 +40,20 @@ body {
   padding: 00px 10px;
   
 }
+.body{
+  display: flex;
+  align-items: center;
+}
+.design{
+  display: block;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px 40px;
+  margin: 40px;
+}
+.design:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 100px whitesmoke;
+  color: cyan;
+  background-color: black;
+} 
