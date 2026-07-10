@@ -1,8 +1,8 @@
 // 1. Create the Earth instance
 const myEarth = Globe()(document.getElementById('3dGlobe'))
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-    .width(document.getElementById('3dGlobe').clientWidth)
-    .height(document.getElementById('3dGlobe').clientHeight);
+    .width(1200)
+    .height(450);
 
 myEarth.controls().autoRotate = true;
 myEarth.controls().autoRotateSpeed = 0.6;
