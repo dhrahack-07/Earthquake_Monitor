@@ -7,4 +7,14 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
+}
+#3dGlobe{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vmin;
+  height: 80vmin;
+  z-index: 5;
 }
