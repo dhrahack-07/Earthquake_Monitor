@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('space.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
